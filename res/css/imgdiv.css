@@ -1,0 +1,6 @@
+     #bor3 img { 
+		border: 1px solid white; 
+	} 
+	#bor3 img:hover { 
+		border: 1px solid black; 
+	} 

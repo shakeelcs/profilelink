@@ -1,0 +1,273 @@
+
+.nc-searchbar__button .nc-icon--search {
+	top: 0px;
+}
+.nc-searchbar .nc-icon--search {
+	width: 20px; height: 20px;
+}
+
+.nc-collection-category__link .nc-icon {
+	transform: rotate(180deg);
+}
+
+.nc-notrack .nc-icon__button {
+	display: flex; align-items: center;
+}
+
+.nc-icon {
+	width: 30px; height: 30px; display: inline-block; fill: inherit; stroke: inherit; stroke-width: 0;
+}
+.nc-icon--search {
+	top: 4px; margin-right: 0px; position: relative; pointer-events: none;
+}
+.nc-icon--close {
+	width: 16px; height: 16px;
+}
+.nc-icon--grid {
+	width: 23px;
+}
+.nc-icon--grid-small {
+	width: 14px; height: 14px;
+}
+.nc-icon--play {
+	width: 20px; height: 20px; vertical-align: middle;
+}
+.nc-icon--play--lg {
+	width: 30px; height: 30px;
+}
+.nc-icon--chat_bubble {
+	width: 12px; height: 12px; vertical-align: middle;
+}
+.nc-icon--list {
+	width: 15px; height: 15px; vertical-align: middle;
+}
+.nc-icon--location-pin {
+	width: 12px; height: 18px;
+}
+.nc-icon--left {
+	margin-right: 11px;
+}
+.nc-icon--right {
+	margin-left: 11px;
+}
+.nc-icon__link {
+	border: 0px currentColor; border-image: none;
+}
+.nc-icon__button {
+	border: 0px currentColor; border-image: none;
+}
+.nc-icon__link:focus {
+	outline: 0px;
+}
+.nc-icon__button:focus {
+	outline: 0px;
+}
+.nc-icon__link__button--close {
+	float: right;
+}
+.nc-icon__button__button--close {
+	float: right;
+}
+.nc-icon__link--black {
+	color: rgb(0, 0, 0);
+}
+.nc-icon__button--black {
+	color: rgb(0, 0, 0);
+}
+.nc-icon__link--black:hover {
+	color: rgb(118, 118, 118);
+}
+.nc-icon__button--black:hover {
+	color: rgb(118, 118, 118);
+}
+.nc-icon__link--black:focus {
+	color: rgb(118, 118, 118);
+}
+.nc-icon__button--black:focus {
+	color: rgb(118, 118, 118);
+}
+.nc-icon__link--yellow {
+	color: rgb(0, 0, 0); background-color: rgb(254, 237, 0);
+}
+.nc-icon__button--yellow {
+	color: rgb(0, 0, 0); background-color: rgb(254, 237, 0);
+}
+.nc-icon__link--yellow:hover {
+	color: rgb(254, 237, 0); background-color: rgb(0, 0, 0);
+}
+.nc-icon__button--yellow:hover {
+	color: rgb(254, 237, 0); background-color: rgb(0, 0, 0);
+}
+.nc-icon__link--yellow:focus {
+	color: rgb(254, 237, 0); background-color: rgb(0, 0, 0);
+}
+.nc-icon__button--yellow:focus {
+	color: rgb(254, 237, 0); background-color: rgb(0, 0, 0);
+}
+.nc-icon__link--white {
+	background: rgb(0, 0, 0); color: rgb(255, 255, 255);
+}
+.nc-icon__button--white {
+	background: rgb(0, 0, 0); color: rgb(255, 255, 255);
+}
+.nc-icon__link--white:hover {
+	color: rgb(254, 237, 0);
+}
+.nc-icon__button--white:hover {
+	color: rgb(254, 237, 0);
+}
+.nc-icon__link--white:focus {
+	color: rgb(254, 237, 0);
+}
+.nc-icon__button--white:focus {
+	color: rgb(254, 237, 0);
+}
+#icon-grid {
+	fill: currentColor;
+}
+#icon-grid-small {
+	fill: currentColor;
+}
+#icon-list {
+	fill: currentColor;
+}
+#icon-close {
+	fill: currentColor;
+}
+#logo-svg {
+	fill: currentColor;
+}
+#icon-menu {
+	fill: currentColor;
+}
+#icon-search {
+	fill: currentColor;
+}
+#icon-play {
+	fill: #feed00;
+}
+#icon-play #arrow {
+	fill: #feed00;
+}
+#icon-chat_bubble {
+	fill: #666;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+.nc-sidenav__content {
+	height: 100%;
+}
+html.aem-AuthorLayer-Edit {
+	height: auto; min-height: 50vh;
+}
+html.aem-AuthorLayer-Preview {
+	height: auto; min-height: 50vh;
+}
+html.aem-AuthorLayer-Targeting {
+	height: auto; min-height: 50vh;
+}
+html.aem-AuthorLayer-Scaffolding {
+	height: auto; min-height: 50vh;
+}
+html.aem-AuthorLayer-Developer {
+	height: auto; min-height: 50vh;
+}
+html.aem-AuthorLayer-Design {
+	height: auto; min-height: 50vh;
+}
+body {
+	font-family: "gt-walsheim-pro","arial","helvetica",sans-serif;
+}
+body .scf {
+	font-family: "gt-walsheim-pro","arial","helvetica",sans-serif;
+}
+a {
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+}
+a:focus {
+	color: inherit;
+}
+.nc-topnav--dark .nc-icon {
+	color: rgb(255, 255, 255); fill: #fff !important;
+}
+
+html.mix-blend-mode-on .nc-page--brand-guide .nc-topnav .nc-icon {
+	fill: #fff;
+}
+.nc-sidenav__close-btn .nc-icon {
+	width: 30px; height: 30px;
+}
+.nc-top-links__link .nc-icon {
+	margin-left: -35px;
+}
+.nc-employee-checklist__text-filter .nc-icon--search {
+	width: 25px; height: 25px;
+}
+[data-completed='true'].nc-employee-checklist__activity-row .nc-employee-checklist__check-activity .nc-icon {
+	display: block;
+}
+.nc-employee-checklist__check-activity .nc-icon {
+	width: 30px; height: 30px; display: none;
+}
+.nc-employee-checklist__check-activity .nc-icon {
+	width: 24px; height: 24px; display: none;
+}
+.nc-employee-checklist__back-to-dashboard .nc-icon {
+	margin-right: 15px; vertical-align: middle;
+}
+.nc-employee-dashboard__text-filter .nc-icon--search {
+	width: 25px; height: 25px;
+}
+.nc-onboarding-form__success .nc-icon {
+	width: 108px; height: 108px;
+}
+.nc-onboarding-form__svg-container .nc-icon {
+	top: 12px; width: 20px; height: 20px; right: 13px; position: absolute;
+}
+.nc-visitors-toast .nc-icon {
+	left: 0px; top: 2px; width: 25px; height: 25px; position: absolute;
+}
+.nc-directory__link .nc-icon--play {
+	margin-right: 9px;
+}
+.nc-featured-video .nc-icon {
+	width: 80px; height: 80px;
+}
+.nc-featured-video .nc-icon {
+	left: 50%; top: 50%; width: 50px; height: 50px; position: absolute; cursor: pointer; transform: translateX(-50%) translateY(-50%);
+}
+.nc-cafe-content .nc-icon {
+	left: 0px; top: 50%; position: absolute; transform: translateY(-50%);
+}
+.nc-recent-links__link .nc-icon {
+	margin-left: -35px;
+}
+.nc-specific-news .nc-icon {
+	left: 0px; top: 50%; position: absolute; transform: translateY(-50%);
+}
+.nc-activity-group__text-filter .nc-icon--search {
+	width: 25px; height: 25px;
+}
+.nc-play-button__link .nc-icon {
+	margin-top: -3px; margin-left: -35px;
+}
+.nc-guidelines-footer__nav--prev .nc-guidelines-footer__link .nc-icon {
+	transform: scale(-1); -webkit-transform: scale(-1, -1); -o-transform: scale(-1, -1); -moz-transform: scale(-1, -1);
+}
+
+.nc-search__input-wrapper--open .nc-icon {
+	width: 25px;
+}
+.nc-searchpromote-results .nc-icon--external-link {
+	left: 10px; top: 5px; width: 20px; height: 20px; position: relative;
+}
+
+
+

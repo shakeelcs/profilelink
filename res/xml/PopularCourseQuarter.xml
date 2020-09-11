@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<courseList>
+  <course heading="Microsoft Azure: Introduction" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a01_it_enus" >
+  </course>
+  <course heading="DevOps Fundamentals: Tools, Technologies, and Infrastructures" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/os_devo_a01_it_enus" >
+  </course>
+  <course heading="Architecting on Amazon Web Services: IAM and Object Storage" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_awsc_a01_it_enus">
+  </course>
+  <course heading="Python: The Basics" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/pg_pyth_a01_it_enus">
+  </course>
+  <course heading="Agile Principles and Methodologies" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/apj_13_a01_it_enus">
+  </course>
+  <course heading="Introduction to SQL" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/df_sqli_a01_it_enus">
+  </course>
+  <course heading="ITIL® Service Strategy Concepts" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/acs_01_a02_it_enus">
+  </course>
+  <course heading="Java SE 8 Fundamentals: Introduction to Java" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/jl_jsee_a01_it_enus">
+  </course>
+   <course heading="Microsoft Azure: Networks and Storage" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/cl_msaz_a02_it_enus">
+  </course>
+   <course heading="Introducing Agile Software Development" url="https://csc.skillport.com/skillportfe/main.action?path=summary/COURSES/sd_agsd_a01_it_enus">
+  </course>
+  
+  <course heading="Thinking Digital The Right Mindset" url="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000194727">
+  </course>
+  <course heading="Presentation Skills" url="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000202121">
+  </course>
+  <course heading="Robotics The Rise of The Hybrid Workforce" url="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000194691">
+  </course>
+  <course heading="Be a Better Listener" url="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000160738">
+  </course>
+  <course heading="Understanding Unconscious Bias" url="https://dxc.sabacloud.com/Saba/Web_spf/NA2PRD0005/common/ledetail/cours000000000160784">
+  </course>
+  
+</courseList>
