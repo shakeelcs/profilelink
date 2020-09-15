@@ -21,7 +21,7 @@
 
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-
+//alert("shakeeTest444");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
