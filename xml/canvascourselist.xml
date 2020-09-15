@@ -136,7 +136,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
             $.ajax({
                 type: "GET",
                // url: "../res/xml/Recent.xml",
-		url: "https://raw.githubusercontent.com/dxcuni/profilelink/master/res/xml/TopTrendingCurricula.xml",
+		url: "https://raw.githubusercontent.com/dxc-university/profilelink/master/res/xml/TopTrendingCurricula.xml",
                 dataType: "xml",
                 success: function (xml) {                    
                     $(xml).find('course').each(function () {                    
