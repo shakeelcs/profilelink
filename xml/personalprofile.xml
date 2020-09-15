@@ -16,27 +16,27 @@
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var URLVaraibale =	"/Saba/Web_spf/NA2PRD0005/common/"			   
+			   var URLVariable =	"/Saba/Web_spf/NA3T1SNB0081/"			   
 
 
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-//alert("shakeeTest444");
+
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
 		    currentURL = $(location).attr('href');
 		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
 			
-    		    MyProfileURL = currentURLHost+URLVaraibale+"profile/basicinfo/"+employeeID;	
-                MyCompLearningURL = currentURLHost+URLVaraibale+"profile/learningtranscripts/"+employeeID;
-		        MyPlanURL = currentURLHost+URLVaraibale+"profile/plans/"+employeeID	;		         
-			    SkillSupportHelp = currentURLHost+"/Saba/Web_spf/NA2PRD0005/pages/pagelistview/pgcnt000000000178132"
-				MyReward = currentURLHost+"/Saba/Web_spf/NA2PRD0005/app/me/reward";
+    		    MyProfileURL = currentURLHost+URLVariable+"common/profile/basicinfo/"+employeeID;	
+                MyCompLearningURL = currentURLHost+URLVariable+"common/profile/learningtranscripts/"+employeeID;
+		        MyPlanURL = currentURLHost+URLVariable+"common/profile/plans/"+employeeID	;		         
+			    SkillSupportHelp = currentURLHost+URLVariable+"pages/pagelistview/pgcnt000000000178132"
+				MyReward = currentURLHost+URLVariable+"app/me/reward";
 				MyMobileLerning = "https://my.dxc.com/employee-resources/dxc-university/overview/dxculearningapp.html";
 			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
 				AccessToskillSoft="https://dxc.skillport.com/skillportfe/main.action#whatshappening";
-		    //MyRewards = currentURLHost+URLVaraibale+"profile/rewards/"+employeeID;
+		    //MyRewards = currentURLHost+URLVariable+"profile/rewards/"+employeeID;
 
 			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
@@ -168,11 +168,3 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
 	    	   
 
                 </script>		
-
-	      
-	    
-	
-	    </script>
-	  ]]>
-	  </Content>
-	</Module>
