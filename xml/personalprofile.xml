@@ -10,18 +10,19 @@
         <Content type="html" view="home">
 	  <![CDATA[
 		<!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>-->
+	  
 	      <script src='../res/js/jquery.min.js' type='text/javascript'></script>
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <script type="text/javascript" language="javascript">
 			/* Global Varaibles Start */ 
 			   var sabaCertificate ;
 			   var employeeID ;
 			   var userName ;
-			   var URLVariable =	"/Saba/Web_spf/NA3T1SNB0081/"			   
-
-
+			   var URLVariable =	"/Saba/Web_spf/NA3T1SNB0081/"
+			   
 		   /* Global Varaibles END */ 
 		   viewData = gadgets.views.getParams();   
-//alert("shakeeTest444");
+          //alert("shakeeTest444");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
@@ -31,27 +32,26 @@
     		    MyProfileURL = currentURLHost+URLVariable+"common/profile/basicinfo/"+employeeID;	
                 MyCompLearningURL = currentURLHost+URLVariable+"common/profile/learningtranscripts/"+employeeID;
 		        MyPlanURL = currentURLHost+URLVariable+"common/profile/plans/"+employeeID	;		         
-			    SkillSupportHelp = currentURLHost+URLVariable+"pages/pagelistview/pgcnt000000000178132"
+			    SkillSupportHelp = currentURLHost+URLVariable+"pages/pagelistview/pgcnt000000000178132";
 				MyReward = currentURLHost+URLVariable+"app/me/reward";
 				MyMobileLerning = "https://my.dxc.com/employee-resources/dxc-university/overview/dxculearningapp.html";
 			    SkillManagementURL = "https://my.dxc.com/our-company/global-functions/integrated-workforce-management/analytics-and-intelligence/dxc-skills-management.html";
 				AccessToskillSoft="https://dxc.skillport.com/skillportfe/main.action#whatshappening";
 		    //MyRewards = currentURLHost+URLVariable+"profile/rewards/"+employeeID;
-
+                   
 			//alert(currentURL +" -- "+currentURLHost );			
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
 	    </script>
 		
-	 <style type="text/css">       
-	        @font-face {
+	 <style type="text/css">  
+@font-face {
 font-family: 'GT_Walsheim_Pro_Regular';
 src: url('../res/css/GT-Walsheim-Pro-Regular.eot'); /* IE9 Compat Modes */
 src: url('../res/css/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 url('../res/css/GT-Walsheim-Pro-Regular.woff') format('woff'), /* Modern Browsers */
 url('../res/css/GT-Walsheim-Pro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
 url('../res/css/GT-Walsheim-Pro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */}
-
 @font-face {
 font-family: 'GT_Walsheim_Pro_Bold';
 src: url('../res/css/GT-Walsheim-Pro-Bold.eot'); /* IE9 Compat Modes */
@@ -60,7 +60,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.woff') format('woff'), /* Modern Browsers *
 url('../res/css/GT-Walsheim-Pro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
 url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-	html, body{
+       html, body{
     height:100%;
     width:100%;
     padding:0;
@@ -73,8 +73,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
 	display: table-cell;
 	width: auto;
 	text-align: center;}
-
-
+     
 		#ex2 img { 
 		border: 1px solid white; 
 		} 
@@ -86,23 +85,22 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
         .nc-icon--play{vertical-align:middle;width:17px;height:17px}        
 		.nc-icon--left{margin-right:11px}
 		.nc-icon--right{margin-left:11px}
-
 		a {text-decoration: none;}
 		a:hover {text-decoration: underline;}
-
 		ul {
 		      list-style-type: none;
 		      text-align: left;
 		      padding-left: 0px;
 		    }
-       
          </style>
-
- <table style="border: 0px solid black; ">
+         </style>		
+	    
+		
+		     
+        <table style="border: 0px solid black; ">
 			<tbody>
-
 		 <tr>
-              <td style="vertical-align:top;" >                
+              <td style="vertical-align:top;"  >                
                     <!--BEGIN QUICK LINKS-->
                      <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;" >                       
                              <tr><td style="font-family:'GT_Walsheim_Pro_Regular';"> 
@@ -122,7 +120,7 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
                   </td>
              </tr>
                 <tr>
-                    <td style="vertical-align:top;">
+                    <td style="vertical-align:top;" >
                         <!--Internal LINKS-->
                         <table style="vertical-align:central ;border: 0px solid black; color: #000000; font-weight: bold; text-align:center; text-align:justify;height: 100%;">
                             <tr>
@@ -136,7 +134,8 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="Skillport Connect" href="https://dxc.skillport.com/skillportfe/main.action#whatshappening" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Skillport Connect</a></li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="Business Language Training" href="https://my.dxc.com/dxc-university/BusEnglish" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Business Language Training</a></li>
                                         <li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="Career Development" href="https://my.dxc.com/employee-resources/hr/career---performance-management/Career-Development.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Career Development</a></li>
-					<!--<li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="Gartner Resources" href="https://my.dxc.com/employee-resources/dxc-university/gartner.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Gartner Resources</a></li>-->
+                                        <!--<li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="Gartner Resources" href="https://my.dxc.com/employee-resources/dxc-university/gartner.html" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>Gartner Resources</a></li>-->
+					<li class="nc-top-links__list-item"><a style="color: black; font-size: 6.5vw; font-weight:normal" title="L&D Calendar" href="https://dxc-itg.sabacloud.com/Saba/Web_spf/NA3T1SNB0081/app/shared;spf-url=pages%2Fpagelistview%2Fpgcnt000000000231864" target="_blank"><svg class="nc-icon nc-icon--play nc-icon--left"><use xlink:href="#icon-play"> </use></svg>L&D Calendar</a></li>
                                     </ul>
                                 </td>
                             </tr>
@@ -166,5 +165,11 @@ url('../res/css/GT-Walsheim-Pro-Bold.svg#svgFontName') format('svg'); /* Legacy 
 					$("a#reward").attr("href", MyReward);
 					$("a#mobilelerning").attr("href", MyMobileLerning);
 	    	   
-
                 </script>		
+	      
+	    
+	
+	    </script>
+	  ]]>
+	  </Content>
+	</Module>
